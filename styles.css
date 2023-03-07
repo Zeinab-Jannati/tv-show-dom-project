@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#episode-dispaly {
+    direction: ltr;
+    position: relative;
+}
+
+#something {
+    direction: rtl;
+    position: relative;
+}
+
+#dropbtn {
+    font-size: 16px;
+    border: none;
+    position: ltr;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 2em;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.card-title{
+    font-family: Helvetica;
+    padding: 10px;
+
+}
+
+.card-image {
+    border-radius: 10%;
+}
+
+#card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-summary {
+    position: relative;
+    text-align:justify;
+    font-size:medium;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.card-season-and-episode {
+    color: blueviolet;
+}
+
+#search-icon {
+    
+}
